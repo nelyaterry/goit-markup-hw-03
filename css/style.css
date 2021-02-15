@@ -56,7 +56,6 @@ address {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid red;
 }
 
 .title {
@@ -102,6 +101,10 @@ address {
   font-size: 14px;
 }
 
+.portfolio-heder {
+  border: 1px solid #ececec;
+}
+
 .header-contact {
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -140,7 +143,6 @@ address {
 .header-contact-list {
   display: flex;
   margin-right: -25px;
-  outline: 1px dotted black;
 }
 
 /* hero */
@@ -167,7 +169,6 @@ address {
   letter-spacing: 0.06em;
   color: #ffffff;
   margin-bottom: 30px;
-  outline: 1px solid white;
 }
 
 .hero-btn {
@@ -182,7 +183,6 @@ address {
   line-height: 1.88;
   text-align: center;
   color: var(--white-text);
-  outline: 1px solid white;
 }
 
 /* feature */
@@ -195,12 +195,10 @@ address {
 .feature-list {
   display: flex;
   justify-content: space-between;
-  outline: 1px solid green;
 }
 
 .feature-list-item {
   width: calc((100% - 90px) / 4);
-  outline: 1px solid black;
 }
 
 .feature-title {
@@ -290,11 +288,6 @@ address {
   display: block;
   color: var(--white-text);
   margin-bottom: 20px;
-  outline: 1px solid green;
-}
-
-.footer-list-item {
-  outline: 1px solid green;
 }
 
 .footer-list-item:not(:last-child) {
@@ -363,7 +356,6 @@ address {
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--project-list-gap));
   margin-left: calc(-1 * var(--project-list-gap));
-  outline: 1px solid red;
 }
 
 .project-list-item {
